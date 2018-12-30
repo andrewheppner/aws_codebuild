@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - npm install yarn -g
+
+  pre_build:
+    commands:
+      - yarn
+
+  build:
+    commands:
+      - yarn run build
+
+  post_build:
+    commands:
+      - aws s3 sync ./build $S3_BUCKET
