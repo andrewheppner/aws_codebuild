@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Editssss <code>src/App.js</code> and save to reload.
+            Newest AWS s3 hosted site <code>src/App.js</code> its the best!.
           </p>
           <a
             className="App-link"
