@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -8,9 +8,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Newest AWS s3 hosted site <code>src/App.js</code> its the best!.
-          </p>
+          <p>This was just changed via the codebuild pipeline.</p>
           <a
             className="App-link"
             href="https://reactjs.org"
